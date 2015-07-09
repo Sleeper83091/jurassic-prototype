@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+*{
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	line-height: 1;
+	min-width: 1000px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+	height: auto;
+	width: auto;
+	min-width: 800px;
+	min-height: 600px;
+	background-image: url("../img/jurassic_bckgrnd.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.container{
+	min-width: 800px;
+	min-height: 600px;
+	max-height: 600px; 
+	max-width: 800px;
+	background-color: green;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.game{
+	
+}
+.game_page{
+	float: left;
+}
+
+/* Nav box */
+.nav{
+	width: 100%;
+	height: 100%;
+	
+}
+.nav_desc{
+	border: 1px solid black;
+	height: 250px;
+	width: 320px; 
+	float: left;
+}
+.nav_mov{
+	border: 1px solid black;
+	height: 250px;
+	width: 320px; 
+	float: left;
+}
+.nav_map{
+	width: 100%;
+	height: 60%;
+	border-bottom: 1px solid black;
+}
+.nav_controls{
+
+}
+.nav_hints{
+
+}
+.nav_button{
+	height: 15px;
+	width: 30px;
+	font-size: 100%;
+	overflow: hidden;
+}
+.nav_button2{
+	height: 15px;
+	width: 30px;
+	font-size: 100%;
+	overflow: hidden;
+	float: left;
+}
+.nav_button3{
+	height: 15px;
+	width: 30px;
+	font-size: 100%;
+	overflow: hidden;
+	clear: both;
+}
+.nav_button4{
+	height: 15px;
+	width: 30px;
+	font-size: 100%;
+	overflow: hidden;
+	float: left;
+}
+.nav_button5{
+	height: 15px;
+	width: 30px;
+	font-size: 100%;
+	overflow: hidden;
+	clear: both;
+}
+/*==================*/
+
+/* Grid Design */
+.row{
+	height: 10%;
+	width: 100%;
+}
+.gridsquare{
+	height: 15px;
+	width: 15px;
+	float: left;
+	border: 1px solid black;
+}
+.rainForrest{
+	height: 15px;
+	width: 15px;
+	float: left;
+	border: 1px solid black;
+	background-image: url(../img/shrub1.png);
+}
+.forrest{
+	height: 15px;
+	width: 15px;
+	float: left;
+	border: 1px solid black;
+	background-image: url(../img/shrub2.png);
+}
+.river{
+	height: 15px;
+	width: 15px;
+	float: left;
+	border: 1px solid black;
+	background-image: url(../img/river.jpg); 
+}
+.desert{
+	height: 15px;
+	width: 15px;
+	float: left;
+	border: 1px solid black;
+	background-image: url(../img/desert.jpg);
+}
+.plains{
+	height: 15px;
+	width: 15px;
+	float: left;
+	border: 1px solid black;
+	background-image: url(../img/plains.jpg);
+}
+/*==================*/
+
+.game_int{
+	border: 1px solid black;
+	width: 640px;
+	height: 250px;
+}
+.game_stats{
+	border: 1px solid black;
+	height: 500px;
+	width: 160px;
+	float: left;
+
+}
+.menu{
+	width: 800px;
+	height: 100px;
+}
+.menu_box{
+
+}
+
+#playerIcon{
+	background-color: red;
+	height: 5px;
+	width: 5px;
+	margin: 0 auto;
+}
